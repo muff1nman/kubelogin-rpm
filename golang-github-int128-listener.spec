@@ -53,11 +53,6 @@ Source:         %{gosource}
 %endif
 %endif
 
-%if %{without bootstrap}
-%license LICENSE
-%doc README.md
-%endif
-
 %gopkgfiles
 
 %changelog
