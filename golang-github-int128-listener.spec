@@ -43,10 +43,6 @@ Source:         %{gosource}
 %go_generate_buildrequires
 %endif
 
-%if %{without bootstrap}
-%build
-%endif
-
 %install
 %gopkginstall
 
@@ -58,7 +54,6 @@ Source:         %{gosource}
 %endif
 
 %if %{without bootstrap}
-%files
 %license LICENSE
 %doc README.md
 %endif
