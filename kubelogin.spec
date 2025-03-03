@@ -15,6 +15,8 @@
 %global binary          kubectl-oidc_login
 Version:                1.32.2
 
+%gometa -L -f
+
 %global common_description %{expand:
 Kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-
 login).}
