@@ -13,7 +13,7 @@
 # https://github.com/int128/kubelogin
 %global goipath         github.com/int128/kubelogin
 %global binary          kubectl-oidc_login
-Version:                1.32.2
+Version:                1.31.1
 
 %gometa -L -f
 
