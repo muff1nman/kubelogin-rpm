@@ -25,7 +25,7 @@ login).}
 %global godocs          docs README.md
 
 Name:           golang-github-int128-kubelogin
-Release:        %autorelease
+Release:        2%{?dist}
 Summary:        Kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)
 
 License:        Apache-2.0
