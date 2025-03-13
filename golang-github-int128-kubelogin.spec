@@ -47,6 +47,7 @@ Source:         %{gosource}
 
 %if %{without bootstrap}
 %build
+export LDFLAGS='-X main.version=v%{version}'
 %gobuild -o %{gobuilddir}/bin/%{binary} %{goipath}
 %endif
 
