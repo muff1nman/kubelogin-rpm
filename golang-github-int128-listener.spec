@@ -5,7 +5,7 @@
 
 # https://github.com/int128/listener
 %global goipath         github.com/int128/listener
-Version:                1.2.0
+Version:                1.3.0
 
 %gometa -L -f
 

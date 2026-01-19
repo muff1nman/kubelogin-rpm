@@ -5,7 +5,7 @@
 
 # https://github.com/int128/oauth2cli
 %global goipath         github.com/int128/oauth2cli
-Version:                1.15.1
+Version:                1.18.0
 
 %gometa -L -f
 

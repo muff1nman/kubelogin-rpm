@@ -9,7 +9,7 @@
 
 # https://github.com/int128/oauth2dev
 %global goipath         github.com/int128/oauth2dev
-Version:                1.0.1
+Version:                1.1.0
 %global commit          55666ed298dd4fd0f5766e8b9ad7e8d802f6570b
 
 %gometa -L -f
