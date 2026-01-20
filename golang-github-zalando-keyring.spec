@@ -28,6 +28,8 @@ License:        MIT
 URL:            %{gourl}
 Source:         %{gosource}
 
+Requires: /usr/bin/dbus-launch
+
 %description %{common_description}
 
 %gopkg
