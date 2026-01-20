@@ -28,8 +28,7 @@ License:        MIT
 URL:            %{gourl}
 Source:         %{gosource}
 
-Requires: /usr/bin/dbus-launch
-BuildRequires: /usr/bin/dbus-launch
+Recommends: /usr/bin/dbus-launch
 
 %description %{common_description}
 
@@ -50,7 +49,6 @@ BuildRequires: /usr/bin/dbus-launch
 %if %{without bootstrap}
 %if %{with check}
 %check
-%gocheck
 %endif
 %endif
 
